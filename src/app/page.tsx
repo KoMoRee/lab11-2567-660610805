@@ -257,7 +257,7 @@ export default function RegisterForm() {
         className="btn btn-success my-2"
         onClick={registerBtnOnClick}
         //You can embbed a state like below to disabled the button
-        disabled={terms}
+        disabled={!terms}
       >
         Register
       </button>
